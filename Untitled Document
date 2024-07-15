@@ -1,0 +1,11 @@
+#javac Hello.java
+#jar -cf Hello.jar Hello.class
+ 
+--------------------------------------
+FROM ubuntu/apache2
+WORKDIR /app
+RUN apt-get update 
+RUN apt-get install openjdk-8-jdk  
+COPY ./hello.jar /app
+EXPOSE 80
+#< CMD to run JAVA>

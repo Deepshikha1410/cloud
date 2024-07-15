@@ -1,0 +1,4 @@
+Create two vpc of non-overlapping ips
+Create at least one subnet in both the VPC
+Create 2 EC2 images in each VPC.
+Using CURL try to check EC2-1 can connect with EC2-2 or vi-vesa

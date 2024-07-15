@@ -1,0 +1,59 @@
+  576  mkdir dockerfile
+  577  cd dockerfile 
+  578  vim Dockerfile 
+  579  vim Hello.java
+  580  javac Hello.java
+  581  java Hello
+  582  docker build -t Hello-file
+  583  docker build -t Hello-file .
+  584  docker build -t hello-file .
+  585  vim Hello.java
+  586  vim Dockerfile 
+  587  docker build -t hello-file .
+  588  docker run -t hello-file
+  589  docker image lis
+  590  docker image list
+  591  ls
+  592  docker image list
+  593  docker login
+  594  docker tag hello-file deepshikha1410/hello-file-pipeline-demo:latest
+  595  docker push deepshikha1410/hello-file-pipeline-demo:latest
+  596  ls
+  597  vim Dockerfile 
+  598  vim Hello.java 
+  599  ls
+  600  vim Dockerfile 
+  601  docker build -t hello-file .
+  602  ls -a
+  603  git init
+  604  git status
+  605  git add *
+  606  git commit -m "My first commit"
+  607  ipeline { 
+  608  agent any 
+  609  git config --global user.email "shikhapaikarra@gmail.com"
+  610  git config --global user.email 
+  611  git config --global user.name "deepe"
+  612  git config --global user.name
+  613  git commit -m "My first commit"
+  614  git branch -M main
+  615  git remote add origin https://github.com/Deepshikha1410/docker_pipeline_demo.git
+  616  git push -u origin main
+  617  vim /etc/group
+  618  sudo su - 
+#################################################################################################################
+ 
+ 1982  chmod 777 /var/run/docker.sock
+ 1983  cat /etc/passwd | grep -i jenkins
+ 1984  cat /etc/passwd | grep -i docker
+ 1985  cat /etc/gr^C
+ 1986  cat /etc/gr^c
+ 1987  ps -ef | grep -i docker
+ 1988  ls -ltr /var/run/docker.sock
+ 1989  vi /etc/group
+ 1990  systemctl stop jenkins ; systemctl stop docker
+ 1991  ls -ltr /var/run/docker.sock 
+ 1992  systemctl start docker
+ 1993  systemctl start jenkins
+ 1994  history
+

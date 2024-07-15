@@ -1,0 +1,71 @@
+microk8s status  --wait-ready  #log in microk8s 
+kubectl create deployment nginx-deployemnt --image=nginx                  #create deploymnt from here
+deployment.apps/nginx-deployemnt created                             
+ kubectl get pods                  #get pods
+ kubectl get deployments           #get deployments
+ kubectl describe deployments      #get description about deployments
+ubectl scale deployment nginx-deployemnt  --replicas=5                   #we want 5 replicas of pod
+kubectl get pods 
+kubectl get deployemnt                         
+kubectl describe deployment nginx-deployemnt
+kubectl scale deployment nginx-deployemnt  --replicas=2                  #we want 2 replicas scale
+kubectl get pods
+kubectl get replicasets
+kubectl get deployments
+kubectl get pods
+nginx-deployemnt-64549bf497-k6s6v                                        #copy the id of any pods
+kubectl delete pod  nginx-deployemnt-64549bf497-k6s6v #in new terminal
+kubectl get pods -o wide #can use to get more details of ip address
+
+kubectl apply -f ngnix-deployment.yaml                                  #to create a deployment
+kubectl delete -f ngnix-deployment.yaml                                 # to create a deployment program
+
+
+
+
+
+
+temprorary
+
+root@hpcap-DIT400TR-55L:~# cat /etc/passwd | grep -i jenkins
+jenkins:x:131:138:Jenkins,,,:/var/lib/jenkins:/bin/bash
+root@hpcap-DIT400TR-55L:~# cat /etc/passwd | grep -i docker
+root@hpcap-DIT400TR-55L:~# cat /etc/gr^C
+root@hpcap-DIT400TR-55L:~# ps -ef | grep -i docker
+root        1655       1  0 03:38 ?        00:01:34 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root        3315    1655  0 03:39 ?        00:00:00 /usr/bin/docker-proxy -proto tcp -host-ip 0.0.0.0 -host-port 8080 -container-ip 172.20.0.2 -container-port 3306
+root        3323    1655  0 03:39 ?        00:00:00 /usr/bin/docker-proxy -proto tcp -host-ip :: -host-port 8080 -container-ip 172.20.0.2 -container-port 3306
+root      431279  238631  0 06:29 pts/1    00:00:00 grep --color=auto -i docker
+root@hpcap-DIT400TR-55L:~# ls -ltr var/run/docker.sock
+ls: cannot access 'var/run/docker.sock': No such file or directory
+root@hpcap-DIT400TR-55L:~# ls -ltr /var/run/docker.sock
+srw-rw---- 1 root docker 0 Apr 23 03:38 /var/run/docker.sock
+root@hpcap-DIT400TR-55L:~# ls -ltr / | grep -i tmp
+drwxrwxrwt  22 root root       4096 Apr 23 06:31 tmp
+root@hpcap-DIT400TR-55L:~# chmod 777 /var/run/docker.sock
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Git token new original new new new new new new real new  
+
+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

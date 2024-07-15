@@ -1,0 +1,24 @@
+mkdir git_test
+
+-bash: cd: git_+test: No such file or directory
+root@hpcap-DIT400TR-55L:~# cd git_test
+nano file1
+ls -l
+total 4
+
+ git init
+git status
+
+git status
+On branch master
+
+
+git status
+On branch master
+
+
+
+git commit file1 -m "Added file1"
+
+
+
