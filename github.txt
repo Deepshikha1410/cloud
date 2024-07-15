@@ -1,0 +1,57 @@
+root@hpcap-DIT400TR-55L:~# mkdir Deepgit
+root@hpcap-DIT400TR-55L:~# cd Deepgit
+root@hpcap-DIT400TR-55L:~/Deepgit# git init
+Initialized empty Git repository in /root/Deepgit/.git/
+root@hpcap-DIT400TR-55L:~/Deepgit# vi deepshikha.txt
+root@hpcap-DIT400TR-55L:~/Deepgit# git add .
+root@hpcap-DIT400TR-55L:~/Deepgit# git commit -m "First working of my code"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+root@hpcap-DIT400TR-55L:~/Deepgit# git config --global user.email "shikhapaikarra@gmail.com"
+root@hpcap-DIT400TR-55L:~/Deepgit# git config --global user.name "Deepshikha1410"
+
+
+
+
+
+
+
+
+
+
+
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+root@hpcap-DIT400TR-55L:~/Deepgit# git push -u origin main
+Username for 'https://github.com': ^C
+root@hpcap-DIT400TR-55L:~/Deepgit# ls
+deepshikha.txt
+root@hpcap-DIT400TR-55L:~/Deepgit# git commit -m "first commit"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+root@hpcap-DIT400TR-55L:~/Deepgit# ls
+deepshikha.txt
+root@hpcap-DIT400TR-55L:~/Deepgit# vim deepshikha.txt
+root@hpcap-DIT400TR-55L:~/Deepgit# git add .
+root@hpcap-DIT400TR-55L:~/Deepgit# git commit -m "Ye chand sa roshan chehra sa ka"
+[main f62fe63] Ye chand sa roshan chehra sa ka
+ 1 file changed, 1 insertion(+)
+root@hpcap-DIT400TR-55L:~/Deepgit# git push
+
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Writing objects: 100% (3/3), 301 bytes | 301.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/Deepshikha1410/deepgit.git
+   fdabd01..f62fe63  main -> main
+
